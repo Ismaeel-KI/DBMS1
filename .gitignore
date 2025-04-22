@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environments
+.venv/
+venv/
+.env
+
+# SQLite DB
+*.sqlite3
+instance/
+
+# PyCharm files
+.idea/
+
+# System files
+.DS_Store
+
+# Deployment files (optional to ignore)
+*.log
