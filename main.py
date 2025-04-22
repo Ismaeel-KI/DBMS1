@@ -29,7 +29,7 @@ class Base(DeclarativeBase):
 
 
 # Creating Database Called 'post.db'
-app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URL')
+app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('SQLALCHEMY_DATABASE_URI')
 db = SQLAlchemy(model_class=Base)
 db.init_app(app)
 login_manager = LoginManager(app)
